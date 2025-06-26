@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-23T20:44:14 IST" name="Default suite" finished-at="2025-06-23T20:46:33 IST" duration-ms="139654">
+    <groups>
+    </groups>
+    <test started-at="2025-06-23T20:44:14 IST" name="Default test" finished-at="2025-06-23T20:46:33 IST" duration-ms="139654">
+      <class name="ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest@2df3b89c]" started-at="2025-06-23T20:44:14 IST" name="bsConfig" finished-at="2025-06-23T20:44:14 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest@2df3b89c]" started-at="2025-06-23T20:44:14 IST" name="bcConfig" finished-at="2025-06-23T20:44:20 IST" duration-ms="6203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest@2df3b89c]" started-at="2025-06-23T20:44:20 IST" name="bmConfig" finished-at="2025-06-23T20:44:21 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createQuote()[pri:0, instance:ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest@2df3b89c]" started-at="2025-06-23T20:44:21 IST" name="createQuote" finished-at="2025-06-23T20:46:27 IST" duration-ms="126526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createQuote -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest@2df3b89c]" started-at="2025-06-23T20:46:27 IST" name="amConfig" finished-at="2025-06-23T20:46:33 IST" duration-ms="5324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest@2df3b89c]" started-at="2025-06-23T20:46:33 IST" name="acConfig" finished-at="2025-06-23T20:46:33 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest@2df3b89c]" started-at="2025-06-23T20:46:33 IST" name="asConfig" finished-at="2025-06-23T20:46:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- ninzaCRM.QuoteTests.CreateQuoteWithContactOppProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
