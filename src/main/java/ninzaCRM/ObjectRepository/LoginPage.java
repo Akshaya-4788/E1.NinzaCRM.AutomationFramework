@@ -1,5 +1,6 @@
 package ninzaCRM.ObjectRepository;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,6 +16,8 @@ public class LoginPage {
 	
 	@FindBy(xpath = "//button[text()='Sign In' ]")
 	private WebElement SignIn;
+	
+	WebDriver driver;
 	
 	
 	
@@ -51,6 +54,7 @@ public class LoginPage {
 		userName.sendKeys(un);
 		password.sendKeys(pwd);
 		SignIn.click();
+		
 	}
 	
 	

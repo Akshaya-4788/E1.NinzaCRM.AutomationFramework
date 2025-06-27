@@ -43,6 +43,8 @@ public class CampaignPage extends SeleniumUtility {
 	private WebElement logout;
 	
 	
+	
+	
 	public CampaignPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -100,9 +102,12 @@ public class CampaignPage extends SeleniumUtility {
 	/**
 	 * This method will click on create campaign button
 	 */
-	public void clickOnCreateCampaignBtn()
+	public void clickOnCreateCampaignBtn(WebDriver driver)
 	{
+		
+		waitForElementToBeClickable(driver, createCampaign);
 		createCampaign.click();
+		
 	}
 	
 	/**

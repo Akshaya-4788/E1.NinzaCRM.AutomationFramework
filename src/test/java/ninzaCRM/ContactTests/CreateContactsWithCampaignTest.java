@@ -3,6 +3,7 @@ package ninzaCRM.ContactTests;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.openqa.selenium.Alert;
 import org.testng.annotations.Test;
 
 import ninzaCRM.GenericUtilities.BaseClass;
@@ -27,7 +28,7 @@ public class CreateContactsWithCampaignTest extends BaseClass {
 		
 		// click on create campaign 
 		CampaignPage cp = new CampaignPage(driver);
-		cp.clickOnCreateCampaignBtn();		
+		cp.clickOnCreateCampaignBtn(driver);		
 		// create campaign with mandatory fields
 		CreateCampaignPage ccp = new CreateCampaignPage(driver);
 		ccp.createCampaign(CAMPAIGNNAME, TARGETSIZE);

@@ -40,7 +40,7 @@ public class CreateOpportunityWithCampaignLeadTest extends BaseClass {
 		
 		//Click on create campaign button 
 		CampaignPage cp = new CampaignPage(driver);
-		cp.clickOnCreateCampaignBtn();
+		cp.clickOnCreateCampaignBtn(driver);
 		//create campaign with mandatory fields
 		CreateCampaignPage ccp= new CreateCampaignPage(driver);
 		ccp.createCampaign(CAMPAIGNNAME, TARGETSIZE);
