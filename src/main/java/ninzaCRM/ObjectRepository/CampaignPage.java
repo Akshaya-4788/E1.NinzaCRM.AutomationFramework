@@ -101,11 +101,13 @@ public class CampaignPage extends SeleniumUtility {
 	//Business Libraries
 	/**
 	 * This method will click on create campaign button
+	 * @throws InterruptedException 
 	 */
-	public void clickOnCreateCampaignBtn(WebDriver driver)
+	public void clickOnCreateCampaignBtn(WebDriver driver) throws InterruptedException
 	{
 		
 		waitForElementToBeClickable(driver, createCampaign);
+		Thread.sleep(3000);
 		createCampaign.click();
 		
 	}
