@@ -9,7 +9,7 @@ import ninzaCRM.GenericUtilities.SeleniumUtility;
 
 public class CampaignPage extends SeleniumUtility {
 	
-	@FindBy(xpath = "//span[text()='Create Campaign']")
+	@FindBy(xpath = "//span[.='Create Campaign']")
 	private WebElement createCampaign;
 	
 	@FindBy(linkText = "Leads")
