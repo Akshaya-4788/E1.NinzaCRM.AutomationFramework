@@ -53,7 +53,7 @@ public class BaseClass {
 		String URL = pUtil.readDataFromPropertyFile("url");
 		//ChromeOptions options = new ChromeOptions();
 		//options.addArguments("--disable-popup-blocking");
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();
 		
 //		if(BROWSER.equals("edge"))
 //		{
